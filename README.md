@@ -6,6 +6,16 @@ DSH 会话框右上角的大肥鱼动画形象，按当前状态换表情：待�
 
 表情取自 diwer/ai-biaoqingbao 的 100 张大肥鱼表情，按状态分组、组内随机；每张沿用素材原始帧数与帧序，合成一张动画 WebP 内嵌在 `client.js` 里，不依赖外部资源。
 
+![大肥鱼贴在输入框上沿](assets/screenshots/composer-light.webp)
+
+九种状态各一组表情，进入状态时随机挑一个：
+
+![九种状态表情一览](assets/screenshots/states.webp)
+
+暗色主题下同样贴边，不挡输入框与发送按钮：
+
+![暗色主题](assets/screenshots/composer-dark.webp)
+
 ## 状态与表情
 
 | 状态 | 判定 | 表情组 |
@@ -90,6 +100,7 @@ client.js               构建产物：overlay 挂宠物 + dock 挂占位带，�
 src/client.template.js  源码模板（状态机、轮换、闲置脚本、CSS）
 assets/raw/diwer/       29 张挑好的原始表情（已裁掉卡片底色）
 assets/manifest.json    素材分组与帧索引
+assets/screenshots/     README 截图（按插件 1:1 几何渲染，非真机截图）
 scripts/build_emotes.py 抠底、裁切、底部对齐、导出逐帧 WebP
 scripts/build_plugin.py 逐帧合成动画 WebP 并内联进 client.js
 locale/{en,zh}.json     插件页标题与描述
