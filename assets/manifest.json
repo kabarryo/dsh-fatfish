@@ -1,0 +1,204 @@
+{
+ "pools": {
+  "waiting": [
+   {
+    "id": "081",
+    "label": "期待",
+    "frames": 2,
+    "dir": "waiting"
+   },
+   {
+    "id": "019",
+    "label": "在吗",
+    "frames": 2,
+    "dir": "waiting"
+   }
+  ],
+  "typing": [
+   {
+    "id": "009",
+    "label": "收到！",
+    "frames": 4,
+    "dir": "typing"
+   },
+   {
+    "id": "020",
+    "label": "来了",
+    "frames": 3,
+    "dir": "typing"
+   },
+   {
+    "id": "022",
+    "label": "马上到",
+    "frames": 3,
+    "dir": "typing"
+   }
+  ],
+  "running": [
+   {
+    "id": "074",
+    "label": "干饭人",
+    "frames": 2,
+    "dir": "running"
+   },
+   {
+    "id": "075",
+    "label": "先吃一口",
+    "frames": 2,
+    "dir": "running"
+   },
+   {
+    "id": "065",
+    "label": "赶工中",
+    "frames": 2,
+    "dir": "running"
+   },
+   {
+    "id": "076",
+    "label": "咖啡续命",
+    "frames": 2,
+    "dir": "running"
+   }
+  ],
+  "approval": [
+   {
+    "id": "034",
+    "label": "啊这",
+    "frames": 2,
+    "dir": "approval"
+   },
+   {
+    "id": "028",
+    "label": "拜托了",
+    "frames": 2,
+    "dir": "approval"
+   },
+   {
+    "id": "021",
+    "label": "等一下",
+    "frames": 4,
+    "dir": "approval"
+   }
+  ],
+  "question": [
+   {
+    "id": "033",
+    "label": "真的假的",
+    "frames": 2,
+    "dir": "question"
+   },
+   {
+    "id": "049",
+    "label": "尊嘟假嘟",
+    "frames": 2,
+    "dir": "question"
+   },
+   {
+    "id": "093",
+    "label": "确认眼神",
+    "frames": 2,
+    "dir": "question"
+   }
+  ],
+  "error": [
+   {
+    "id": "037",
+    "label": "麻了",
+    "frames": 2,
+    "dir": "error"
+   },
+   {
+    "id": "036",
+    "label": "我裂开了",
+    "frames": 2,
+    "dir": "error"
+   },
+   {
+    "id": "069",
+    "label": "我太难了",
+    "frames": 2,
+    "dir": "error"
+   }
+  ],
+  "done": [
+   {
+    "id": "094",
+    "label": "恭喜",
+    "frames": 2,
+    "dir": "done"
+   },
+   {
+    "id": "003",
+    "label": "点赞",
+    "frames": 4,
+    "dir": "done"
+   },
+   {
+    "id": "091",
+    "label": "满血复活",
+    "frames": 2,
+    "dir": "done"
+   },
+   {
+    "id": "047",
+    "label": "拿捏了",
+    "frames": 2,
+    "dir": "done"
+   }
+  ],
+  "stuffed": [
+   {
+    "id": "088",
+    "label": "撑了",
+    "frames": 2,
+    "dir": "stuffed"
+   },
+   {
+    "id": "072",
+    "label": "让我缓缓",
+    "frames": 2,
+    "dir": "stuffed"
+   }
+  ]
+ },
+ "idle": {
+  "afterMs": 120000,
+  "opening": [
+   {
+    "id": "064",
+    "label": "摸鱼中",
+    "frames": 2,
+    "dir": "idle"
+   },
+   {
+    "id": "044",
+    "label": "不想说话",
+    "frames": 4,
+    "dir": "idle"
+   }
+  ],
+  "sequence": [
+   {
+    "id": "007",
+    "label": "困了",
+    "frames": 4,
+    "dir": "idle",
+    "loops": 3
+   },
+   {
+    "id": "018",
+    "label": "晚安",
+    "frames": 4,
+    "dir": "idle",
+    "loops": 2
+   },
+   {
+    "id": "073",
+    "label": "充电中",
+    "frames": 2,
+    "dir": "idle",
+    "loops": 0
+   }
+  ]
+ }
+}

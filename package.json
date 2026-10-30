@@ -1,0 +1,52 @@
+{
+  "name": "dsh-fatfish",
+  "version": "0.1.0",
+  "description": "大肥鱼桌宠：在 DSH 输入框右上角随会话状态换表情的动画形象",
+  "license": "MIT",
+  "author": "kabarryo",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "mascot",
+    "pet",
+    "deepseek"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabarryo/dsh-fatfish.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

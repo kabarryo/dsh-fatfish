@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# 本地开发笔记（方案与迭代记录）
+PLAN.md
+
+# 开发用预览页与截图证据，不进发布包
+demo/
+docs/
+
+# 生成产物：帧由 assets/raw + scripts/build_emotes.py 重建
+assets/frames/
+
+# 依赖与缓存
+node_modules/
+__pycache__/
+*.pyc
+*.log
+
+# 编辑器 / 临时备份
+*.bak-*
+*.swp
+.idea/
+.vscode/
